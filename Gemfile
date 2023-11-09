@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
-ruby '>= 2.2.0', '< 3.0.0'
+ruby '>= 2.2.0', '<= 3.2.2'
 gem 'sinatra', '>= 2.0.1'
-# test
+
+group :development do
+ gem 'rerun'
+end
+
